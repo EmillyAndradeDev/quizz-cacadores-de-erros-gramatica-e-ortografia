@@ -1,0 +1,170 @@
+:root{
+    --cor01: #D96299;
+    --cor02: #745549;
+    --cor03: #43291F;
+    --cor04: #43291f73;
+    --cor05:#ff007780;
+}
+
+body {
+    background: url("../img/pexels-pixabay-301920.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: "Gabarito", sans-serif;
+    margin: 20px;
+}
+
+/* Header fixo com logo e navegação */
+header {
+    background-color: #43291f73;
+    padding: 0.82rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-radius: 10px;
+}
+
+.logo {
+    font-weight: 800;
+    color: #fff;
+    padding-left: 1%;
+}
+
+.logo .realce {
+    color: var(--cor01);
+}
+
+.nav-wrapper {
+    display: flex;
+    /* Permite o alinhamento de itens na mesma linha */
+    align-items: center;
+    /* Alinha os itens verticalmente ao centro */
+}
+
+.logo-pequeno {
+    width: 40px;
+    /* Define a largura da imagem */
+    height: 40px;
+    /* Define a altura da imagem (mesma largura para ser circular) */
+    border-radius: 50%;
+    /* Arredonda a imagem em um círculo */
+    margin-left: 10px;
+    /* Cria um espaço entre o texto e a imagem */
+}
+
+/* *Caixa principal do jogo */
+.conteudo-jogo {
+    background: rgba(0, 0, 0, 0.829);
+    /* box-shadow: 0 0 5px #ff1b7b; */
+    box-shadow: 0 0 5px var(--cor05);
+    margin: 30px;
+    padding: 20px;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.conteudo-jogo:hover {
+    background: rgba(0, 0, 0);
+    /* box-shadow: 0 0 5px #19caca; */
+    box-shadow: 0 0 5px var(--cor01);
+}
+
+/* *Títulos e textos */
+h2,
+p {
+    color: #fff;
+    text-align: center;
+}
+
+/* *Estrutura do questionário */
+.questionario {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 70%;
+    max-width: 70%;
+}
+
+/* *Área de conteúdo */
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    gap: 20px;
+}
+
+/* *Estilo da pergunta */
+.pergunta {
+    font-weight: 900;
+    color: white;
+}
+
+/* *Progresso da pergunta */
+.progresso {
+    text-align: end;
+    /* font-size: small; */
+    font-weight: 500;
+    color: var(--cor01);
+}
+
+/* *Área das respostas */
+.respostas {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* *Botões de resposta */
+.botao-resposta {
+    width: 100%;
+    height: 2.5rem;
+    text-align: start;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    background: var(--cor05);
+    color: white;
+    border-radius: 5px;
+}
+
+.botao-resposta:hover {
+    background-color: var(--cor02);
+    font-weight: 600;
+}
+
+/* *Tela de fim do jogo */
+.fim {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.fim span {
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+}
+
+/* *Footer */
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+  color: white;
+  background-color: var(--cor04);
+}
+
+footer a {
+  color: var(--cor01);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
