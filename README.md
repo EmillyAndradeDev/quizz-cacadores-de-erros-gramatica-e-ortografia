@@ -1,4 +1,4 @@
-![Logo local](img/favicon.ico) #  Caçadores de Erros - Gramática e Ortografia
+#  Caçadores de Erros - Gramática e Ortografia ![Logo local](img/favicon.ico) 
 
 ### 📝 Descrição do Projeto
 
