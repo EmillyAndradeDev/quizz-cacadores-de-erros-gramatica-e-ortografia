@@ -1,4 +1,4 @@
-#  Caçadores de Erros - Gramática e Ortografia 🐼
+#  Caçadores de Erros - Gramática e Ortografia
 
 ### 📝 Descrição do Projeto
 
