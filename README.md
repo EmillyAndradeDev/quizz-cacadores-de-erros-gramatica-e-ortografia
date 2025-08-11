@@ -1,3 +1,4 @@
+![Logo local](img/favicon.ico) 
 
 #  Caçadores de Erros - Gramática e Ortografia
 
