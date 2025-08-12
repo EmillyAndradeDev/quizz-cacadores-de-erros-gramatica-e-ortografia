@@ -2,18 +2,18 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caçadores de Erros </title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Caçadores de Erros</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
 </head>
 
 <body>
     <!-- CABEÇALHO-->
     <header>
         <div class="container nav-wrapper">
-            <img class="logo-pequeno" src="img/logo-EmillyAndradeDev.png" alt="Logo de Emilly Andrade">
+            <img class="logo-pequeno" src="img/logo-EmillyAndradeDev.png" alt="Logo de Emilly Andrade" />
             <h1 class="logo">EmillyAndrade<span class="realce">DEV</span></h1>
         </div>
     </header>
@@ -23,26 +23,33 @@
     </div>
 
     <div class="conteudo-jogo">
-        <section class="questionario">
+        <section class="questionario" role="main" aria-labelledby="titulo-quiz">
             <div class="conteudo">
-                <span class="progresso"></span>
-                <span class="pergunta"></span>
-                <span class="respostas"></span>
+                <div class="progresso" aria-live="polite"></div>
+                <h3 class="pergunta" id="titulo-quiz"></h3>
+                <div class="respostas" role="list"></div>
             </div>
-            <div class="fim">
+            <div class="fim" style="display:none;" role="region" aria-live="polite" aria-label="Resultado final do quiz">
                 <span></span>
+                <!-- Botão reiniciar será inserido pelo JS aqui -->
             </div>
         </section>
     </div>
 
     <footer>
-        <p>Desenvolvido por: <a
-                href="https://emillyandradedev.github.io/portfolio-emilly-andrade-dev/">EmillyAndradeDev</a></p>
-        <p>Para sugestões e correções, entre em contato: <a
-                href="mailto: emilly.andrade.digital@gmail.com">emilly.andrade.digital@gmail.com</a></p>
+        <p>
+            Desenvolvido por:
+            <a href="https://emillyandradedev.github.io/portfolio-emilly-andrade-dev/"
+                >EmillyAndradeDev</a
+            >
+        </p>
+        <p>
+            Para sugestões e correções, entre em contato:
+            <a href="mailto: emilly.andrade.digital@gmail.com">emilly.andrade.digital@gmail.com</a>
+        </p>
     </footer>
-    <script src="js/script.js"></script>
 
+    <script src="js/script.js"></script>
 </body>
 
 </html>
