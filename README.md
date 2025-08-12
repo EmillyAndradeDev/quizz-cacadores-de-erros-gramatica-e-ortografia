@@ -2,7 +2,13 @@
 
 ### 📝 Descrição do Projeto
 
-Este projeto foi desenvolvido para exercitar a lógica de programação e a interatividade com o usuário. A criação do quiz permitiu consolidar o entendimento sobre estruturas de dados e controle de fluxo no JavaScript, ao mesmo tempo que refinava as técnicas de estilização e responsividade com CSS.
+O Caçadores de Erros é um quiz educativo focado em gramática e ortografia da língua portuguesa, desenvolvido para ajudar estudantes e entusiastas a aprimorarem seus conhecimentos de forma prática e interativa.
+
+Com perguntas objetivas e explicações claras para cada alternativa, o quiz estimula a aprendizagem ativa, permitindo que o usuário entenda não só qual a resposta correta, mas também o motivo por trás das escolhas certas e erradas.
+
+O projeto foi desenvolvido utilizando HTML, CSS e JavaScript puro, com foco em acessibilidade e usabilidade, garantindo uma experiência intuitiva para todos os usuários.
+
+Ideal para quem deseja revisar regras gramaticais de maneira leve, divertida e sem pressão de tempo.
 
 ---
 ### 💻 Tecnologias Utilizadas
@@ -13,16 +19,26 @@ Este projeto foi desenvolvido para exercitar a lógica de programação e a inte
 
 #### ⚙️ Funcionalidades
 O Caçadores de Erros é um quiz interativo com o seguinte fluxo:
-- Contém 9 perguntas de gramática e ortografia.
-- Ao final do quiz, o usuário recebe a pontuação total para descobrir quantas questões acertou.
-- Não possui cronômetro nem limite de tempo, permitindo que o jogador responda no seu próprio ritmo.
-- Atualmente, não há um botão para reiniciar o quiz, mas a página pode ser recarregada para começar um novo jogo.
+- Contém 10 perguntas cuidadosamente elaboradas para testar conhecimentos em gramática e ortografia.
+- Após cada resposta, o usuário recebe um feedback visual imediato indicando se a escolha foi correta ou incorreta.
+- Apresenta uma explicação detalhada para cada resposta, ajudando na aprendizagem contínua.
+- Os botões de resposta são desabilitados após a escolha para evitar múltiplos cliques.
+- Ao final do quiz, o usuário recebe a pontuação total, informando quantas questões acertou.
+- Possui um botão para reiniciar o quiz diretamente na tela final, permitindo jogar novamente sem precisar recarregar a página.
+- Não há limite de tempo para responder, o que permite que o jogador avance no seu próprio ritmo.
+- A interface possui melhorias de acessibilidade, incluindo atributos ARIA para melhor suporte a leitores de tela.
 
 ---
 
 ### 🚀 Desafios e Aprendizados
 
-O principal desafio durante o desenvolvimento foi a estilização responsiva. A adaptação do layout para diferentes tamanhos de tela exigiu um bom uso das propriedades do CSS para garantir uma experiência de usuário consistente e agradável em dispositivos móveis e desktops.
+Durante o desenvolvimento do Caçadores de Erros, o principal desafio foi criar uma interface responsiva que se adaptasse bem a diferentes tamanhos de tela, garantindo uma experiência fluida e acessível tanto em dispositivos móveis quanto em desktops.
+
+Além disso, foi um aprendizado importante implementar feedback visual interativo, como a indicação imediata de respostas corretas ou incorretas, e exibir explicações para cada escolha, o que enriquece a experiência do usuário e torna o quiz mais didático.
+
+Outro ponto desafiador foi garantir a acessibilidade, adicionando atributos ARIA e pensando em navegação por teclado e leitores de tela, para que o quiz fosse utilizável por um público mais amplo.
+
+Por fim, a modularização do código JavaScript para manter a organização e facilitar futuras manutenções também contribuiu para o meu crescimento como desenvolvedora.
 
 ---
 
